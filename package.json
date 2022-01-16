@@ -1,0 +1,25 @@
+{
+  "name": "masterwallet",
+  "version": "1.0.0",
+  "description": "Master Node that manages addresses and requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js",
+    "configure-win": "cmd /C \"\"C:\\Program Files\\Git\\bin\\bash.exe\" -c \"C:/-PROJECTS/ETHNode/Production/Masterwallet/bin/configure_db.sh\"\"",
+    "configure": "./bin/configure_db_linux.sh"
+  },
+  "author": "Reza Meshkat",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "errorhandler": "^1.5.1",
+    "ethers": "^5.4.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.1.2",
+    "winston": "^3.3.3"
+  }
+}
