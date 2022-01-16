@@ -1,9 +1,7 @@
-# Etherium Blockchain Wallet Accounting
-This Project would create a wallet for each user and listening to each wallet for ETH or Token deposit or wiothrawals. when it receive any data it will update the wallet and send a notify the changes made to wallet to a defined server as listener.
-the project has written for supporting ETH and USDT token, However it can do the same thing for all avalable tokens by adding them to the config file.
+# Ethereum Blockchain Wallet Accounting
+This project generates a wallet for each user and monitors each wallet for ETH or Token deposits and withdrawals. When it receives data, it updates the wallet and sends a notification of the changes to a specified server as a listener.
+The project has been designed to support the ETH and USDT tokens, but it may do the same for any other token by adding it to the config file.
 
 # Technologies
-NodeJS, Express.js, Socket.io, MySQL, Redis
+NodeJS, Express.js, Socket.io, MySQL, Redis, Geth
 
-# Live running example
-Please visit http://136.243.88.216:1234/ to see the full running code
